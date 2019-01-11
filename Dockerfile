@@ -12,7 +12,7 @@ RUN apk add --no-cache \
     nano \
     nano-syntax \
     vim
-RUN pip3 install --upgrade pip
+RUN pip3 install --upgrade pip setuptools
 RUN pip3 install awscli
 RUN npm install -g serverless
 
